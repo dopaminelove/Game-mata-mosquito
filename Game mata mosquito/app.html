@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="estilo.css" />
+		<script src="jogo.js"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+	</head>
+	<body onresize="ajustaTamanhoPalcoJogo()">
+
+
+		<div class="painel">
+			<div class="vidas">
+				<img id="v1" src="imagens/coracao_cheio.png" alt="Coração Vazio	">
+				<img id="v2" src="imagens/coracao_cheio.png" alt="Coração Cheio">
+				<img id="v3" src="imagens/coracao_cheio.png" alt="Coração Cheio">
+				
+			</div>
+			<div class="cronometro" id="cronometro">
+				Tempo restante: <span id="temporestante"></span>
+			</div>
+		</div>
+		<script>
+			var criaMosquito = setInterval(function() { 
+				posicaoRandomica()
+			}, 2000)
+		</script>
+	</body>
+</html>

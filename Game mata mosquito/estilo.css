@@ -1,0 +1,52 @@
+body {
+	background-color: black;
+}
+
+.mosquito1 {
+	width: 50px;
+	height: 50px;
+}
+
+.mosquito2 {
+	width: 70px;
+	height: 70px;
+}
+
+.mosquito3 {
+	width: 90px;
+	height: 90px;
+}
+
+.ladoA {
+	transform: scaleX(1);
+}
+
+.ladoB {
+	transform: scaleX(-1);
+}
+
+.painel {
+	position: absolute;
+	width: 190px;
+	margin: 15px;
+	padding: 15px;
+	bottom: 0px;
+	border: 1px solid red;
+	border-radius: 10px;
+	opacity: 0.7;
+}
+
+.vidas {
+	float: left;
+}
+
+.cronometro {
+	color: white;
+	float: left;
+	font-size: 20px ;
+	font-weight: bold;
+	padding-top: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
