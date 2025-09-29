@@ -1,5 +1,6 @@
 body {
 	background-color: black;
+	cursor: url('imagens/mata_mosca.png')
 }
 
 .mosquito1 {
@@ -49,4 +50,5 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 
 }
+
 
